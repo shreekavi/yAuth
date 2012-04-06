@@ -1,0 +1,12 @@
+{application, yAuth,
+ [
+  {description, ""},
+  {vsn, "1"},
+  {registered, []},
+  {applications, [
+                  kernel,
+                  stdlib
+                 ]},
+  {mod, { yAuth_app, []}},
+  {env, []}
+ ]}.
